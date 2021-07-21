@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testngassignments">
+	<test  name="Formy_CompleteWebForm">
+		<classes>
+			<class name="testngassignments.Formy"></class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test  name="PetStore_UserInfo_PersonalInfo">
+		<classes>
+			<class name="testngassignments.PetStore"></class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test  name="Medical_PatientDetails">
+		<classes>
+			<class name="testngassignments.Medical"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->	
